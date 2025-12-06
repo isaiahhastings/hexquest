@@ -33,4 +33,28 @@ function closePopup(){
     }
 }
 
+function shrineAnim(state: boolean) { 
+    if (state === true) {
+        WA.room.showLayer('furniture/Garden/ShrineAnimOn');
+    } else {
+        WA.room.hideLayer('furniture/Garden/ShrineAnimOff');
+    }
+}
+
+WA.state.onVariableChange('shrineState').subscribe((shrineState) => {
+        // Each time the "shrineState" variable changes, we call the "shirneAnim" function to update the door image visually.
+        shrineAnim(shrineState as boolean);
+    });
+
+    // When someone walks on the doorstep (inside the room), we display a message to explain how to open or close the door
+    WA.room.onEnterLayer('furniture/Garden/ShrineStateAction').subscribe(() => {
+        WA.room.showLayer('furniture/Garden/ShrineAnimOn');
+    });
+
+    // When someone leaves the doorstep (inside the room), we remove the message
+    WA.room.onLeaveLayer('doorsteps/inside_doorstep').subscribe(() => {
+        WA.room.hideLayer('furniture/Garden/ShrineAnimOn');
+    });
+
 export {};
+
