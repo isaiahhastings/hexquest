@@ -439,17 +439,17 @@
         {
          "name":"mapDescription",
          "type":"string",
-         "value":"A perfect virtual office to get started with WorkAdventure!"
+         "value":"HexQuest Landing Zone"
         }, 
         {
          "name":"mapImage",
          "type":"string",
-         "value":"office.png"
+         "value":"LandingZone.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Landing Zone"
         }, 
         {
          "name":"script",
