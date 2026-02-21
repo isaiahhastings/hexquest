@@ -6667,7 +6667,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/docs.google.com\/document\/d\/1RrLxlDyhAfevSiHJF1g3pTBeNQ0LRSSP7X-JUAKd3HM\/edit?tab=t.0#heading=h.qnpxbv4lt0o0"
+                         "value":"https:\/\/docs.google.com\/document\/d\/1RrLxlDyhAfevSiHJF1g3pTBeNQ0LRSSP7X-JUAKd3HM\/edit?usp=sharing"
                         }, 
                         {
                          "name":"openWebsiteClosable",
@@ -6683,8 +6683,8 @@
                  "type":"area",
                  "visible":true,
                  "width":112,
-                 "x":634.666666666667,
-                 "y":198.666833333333
+                 "x":630.666666666667,
+                 "y":234.000166666666
                 }, 
                 {
                  "height":121.333,
