@@ -98,12 +98,6 @@
          "id":68,
          "name":"exit",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"exitUrl",
-                 "type":"string",
-                 "value":"https:\/\/play.workadventu.re\/@\/hexquest\/hexquest\/-\/github.com\/isaiahhastings\/hexquest\/office"
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":60,
