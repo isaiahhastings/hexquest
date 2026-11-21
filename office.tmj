@@ -5868,6 +5868,15 @@
          "tileheight":32,
          "tiles":[
                 {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"start",
+                         "type":"string",
+                         "value":"Start"
+                        }]
+                }, 
+                {
                  "id":2,
                  "properties":[
                         {

@@ -489,6 +489,15 @@
                          "type":"bool",
                          "value":true
                         }]
+                }, 
+                {
+                 "id":5,
+                 "properties":[
+                        {
+                         "name":"exitUrl",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventu.re\/@\/hexquest\/hexquest\/-\/github.com\/isaiahhastings\/hexquest\/office\/#Start"
+                        }]
                 }],
          "tilewidth":32
         }, 
